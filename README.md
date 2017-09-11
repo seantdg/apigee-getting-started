@@ -2,7 +2,8 @@
 
 1) Register for a free Apigee Account at https://login.apigee.com/sign_up
 2) Download this bundle
-3) Run the following command from the apigee-getting-started directory
+3) Install Maven (on Windows using https://www.mkyong.com/maven/how-to-install-maven-in-windows/ )
+4) Run the following command from the apigee-getting-started directory
 
 ``` shell
 mvn clean install -Ptest -Dapigee.org=(apigee org) -Dapigee.user=(apigee email address) -Dapigee.pass=(apigee password) -Dapigee.domain.test=(test domain) -Dapigee.domain.prod=(test domain)
