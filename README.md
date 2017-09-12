@@ -4,7 +4,13 @@
 2) Download this bundle
 3) Install Maven (on Windows using https://www.mkyong.com/maven/how-to-install-maven-in-windows/ )
 4) Install NodeJS
-4) Run the following commands from the apigee-getting-started directory
+5) Install cucumber globally
+
+``` shell
+npm install -g cucumber
+```
+
+6) Run the following commands from the apigee-getting-started directory
 
 ``` shell
 npm install
