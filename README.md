@@ -8,7 +8,10 @@
 
 ``` shell
 npm install
+
 mvn clean install -Ptest -Dapigee.org=(apigee org) -Dapigee.user=(apigee email address) -Dapigee.pass=(apigee password) -Dapigee.domain.test=(test domain) -Dapigee.domain.prod=(test domain)
+
+cucumber-js target/test
 ```
 
 Where you have replaced everything in (brackets) with your values.
