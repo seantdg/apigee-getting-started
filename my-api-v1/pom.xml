@@ -215,7 +215,7 @@
 						</configuration>
 					</execution-->
 					<!-- run integration tests -->
-					<execution>
+					<!--execution>
 						<id>integration</id>
 						<phase>install</phase>
 						<goals>
@@ -227,7 +227,7 @@
 								target/test/integration/features --tags ${api.testtag}
 							</commandlineArgs>
 						</configuration>
-					</execution>
+					</execution-->
 				</executions>
 			</plugin>
 
