@@ -201,7 +201,7 @@
 				<version>1.3.2</version>
 				<executions>
 					<!-- npm install -->
-					<execution>
+					<!--execution>
 						<id>npm-install</id>
 						<phase>validate</phase>
 						<goals>
@@ -213,7 +213,7 @@
 								install
 							</commandlineArgs>
 						</configuration>
-					</execution>
+					</execution-->
 					<!-- run integration tests -->
 					<execution>
 						<id>integration</id>
